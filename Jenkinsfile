@@ -44,7 +44,7 @@ stages {
 	stage('Docker Image') {
             steps {
                 echo 'Build Docker Image'
-                bat 'docker build -t spring-docker-jenkins-img --build-arg VER=1.0 .'
+                bat 'docker build -t praveen4321/spring-docker-jenkins-img --build-arg VER=1.0 .'
             }
         }
         
